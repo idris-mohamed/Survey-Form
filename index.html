@@ -1,0 +1,86 @@
+<link rel="stylesheet" type="text/css" href="styles.css">
+<body translate="no">
+  <div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">Games feedback survey</h1>
+  </header>
+  <form id="survey-form">
+    <div class="form-group">
+      <label id="name-label" for="name">Name</label>
+      <input type="text" name="name" id="name" class="form-control" placeholder=" Enter your name" required="">
+    </div>
+    <div class="form-group">
+      <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder=" Enter your Email" required="">
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age<span class="clue"></span></label>
+      <input type="number" name="age" id="number" min="10" max="99" class="form-control" placeholder="Age">
+    </div>
+    <div class="form-group">
+      <p>Which gaming platform are you using?</p>
+      <select id="dropdown" name="role" class="form-control" required="">
+        <option disabled="" selected="" value="">Select your platform</option>
+        <option value="Playstation">Playstation</option>
+        <option value="Xbox">Xbox</option>
+        <option value="Pc">Pc</option>
+        <option value="Nintendo">Nintendo</option>
+        <option value="other">Other</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>Would you recommend our games to your friends?</p>
+      <label>
+        <input name="user-recommend" value="Yes" type="radio" class="input-radio" checked="">Yes</label>
+      <label>
+        <input name="user-recommend" value="No" type="radio" class="input-radio">No</label>
+
+      <label><input name="user-recommend" value="Maybe" type="radio" class="input-radio">Maybe</label>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What do you like the most about our games?
+      </p>
+      <select id="most-like" name="mostLike" class="form-control" required="">
+        <option disabled="" selected="" value="">Select an option</option>
+        <option value="challenges">Challenges</option>
+        <option value="Idea">Idea</option>
+        <option value="Design">Design</option>
+        <option value="Cheatcodes">Cheatcodes</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <p>
+        What would you like to see improved?
+        <span class="clue">(Select one or more)</span>
+      </p>
+
+      <label><input name="prefer" value="Graphics" type="checkbox" class="input-checkbox">Graphics</label>
+      <label>
+        <input name="prefer" value="Audio" type="checkbox" class="input-checkbox">Audio</label>
+      <label><input name="prefer" value="Difficulity" type="checkbox" class="input-checkbox">Difficulity</label>
+      <label><input name="prefer" value="challenges" type="checkbox" class="input-checkbox">Challenges</label>
+      <label><input name="prefer" value="Matchmaking" type="checkbox" class="input-checkbox">Matchmaking</label>
+      <label><input name="prefer" value="Lobbies" type="checkbox" class="input-checkbox">Lobbies</label>
+      <label><input name="prefer" value="Gamechat" type="checkbox" class="input-checkbox">Gamechat</label>
+    </div>
+
+    <div class="form-group">
+      <p>comments or suggestions?</p>
+      <textarea id="Type here" class="input-textarea" name="comment" placeholder="Type here"></textarea>
+    </div>
+
+    <div class="form-group">
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
+    </div>
+  </form>
+</div>
+<p id="description" class="description text-center">
+      Thanks for helping us improve our games!
+    </p> 
+</body>

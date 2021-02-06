@@ -1,0 +1,72 @@
+body {
+  font-family: 'Anaheim';
+  font-size: 1.2em;
+background-image: url(https://cdn.statically.io/img/wallpaperaccess.com/full/950252.jpg);
+
+}
+
+p{
+  font-size: 20pt;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  padding: 1em;
+  border: 1px solid black;
+  border-radius: 1em;
+  
+}
+#survey-form {
+  background-color: transparent;
+}
+#number {
+  width: 150px;
+}
+
+div + div {
+  margin-top: 1em;
+  }
+textarea {
+  
+  vertical-align: top; 
+  height: 5em;
+  resize: vertical;
+}
+input[type="text" i] {
+    padding: 5px 35px;
+}
+
+input[type="email" i] {
+    padding: 5px 35px;
+}
+input[type="number" i] {
+    padding: 5px 15px;
+}
+
+select{
+  border-width: 2px;
+  border-color: black;
+}
+
+
+
+button {
+  margin: .5em;
+  font-size: 1em;
+  text-transform: capitalize;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  
+}
+
